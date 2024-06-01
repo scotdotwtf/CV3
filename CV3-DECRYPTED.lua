@@ -1,4 +1,6 @@
---> WITHOUT LOADSTRING, ADD THIS TABLE: getgenv().Animation_Presets = {182491065, 216937924, 45039374}
+if not Animation_Presets then
+  getgenv().Animation_Presets = {182491065, 216937924, 45039374} 
+end
 
 --[[
     Filename: CV3.lua
